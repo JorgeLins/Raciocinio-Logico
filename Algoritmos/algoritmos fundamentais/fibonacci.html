@@ -1,0 +1,16 @@
+<meta charset='UTF-8'>
+<script>
+var n = prompt("Informe o número de termos:")
+var t1 = 0
+var t2 = 1
+var t3;
+document.write(t1 + " " + t2 + " ");
+var i = 3;
+while(i <= n){
+	t3 = t1+t2;
+	t1 = t2;
+	t2 = t3;
+	document.write(t3 + ' ');
+	i++;
+}
+</script>
